@@ -65,13 +65,13 @@ section {
 
 /* About */
 .about-box img {
-    width: 400px;
+    width: 100%;
     height: auto;
 }
 
 @media(max-width: 500px) {
     .about-box img {
-        width: 300px;
+        width: 20%;
     }
 }
 
