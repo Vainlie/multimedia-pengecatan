@@ -9,17 +9,17 @@ section {
 }
 
 .hero-box .box img {
-    width: 400px;
+    width: 300px;
 }
 
 @media(max-width: 992px) {
     .hero-box .box p {
-        width: 300px;
+        width: 200px;
         font-size: 14px;
     }
 
     .hero-box .box img {
-        width: 300px;
+        width: 100px;
     }
 }
 
