@@ -10,6 +10,14 @@ section {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .hero-box {
+        text-align: center;
+    }
+
+    .hero-box .box p {
+        text-align: center;
+    }
 }
 
 .hero-box .box:nth-child(1) {
