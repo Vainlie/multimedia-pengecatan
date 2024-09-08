@@ -3,43 +3,6 @@ section {
 }
 
 /* Hero */
-.hero-box .box p {
-    width: 500px;
-}
-
-.hero-box .box img {
-    width: 400px;
-    height: 300px;
-}
-
-@media screen and (max-width: 992px) {
-    .hero-box .box p {
-        width: 300px;
-        font-size: 14px;
-    }
-
-    .hero-box .box img {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .hero-box .box p {
-        width: 100%;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .hero-box {
-        text-align: center;
-    }
-
-    .hero-box .box img {
-        width: 100px;
-        height: 100px;
-    }
-}
 
 
 .hero-box .box:nth-child(1) {
