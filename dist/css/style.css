@@ -1,5 +1,5 @@
 section {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -12,7 +12,7 @@ section {
     width: 400px;
 }
 
-@media(max-width: 992px) {
+@media screen and (max-width: 992px) {
     .hero-box .box p {
         width: 300px;
         font-size: 14px;
@@ -23,17 +23,15 @@ section {
     }
 }
 
-@media(max-width: 768px) {
-    .hero {
-        padding-top: 50px;
+@media screen and (max-width: 768px) {
+    .hero-box .box p {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
     }
 
     .hero-box {
         text-align: center;
-    }
-
-    .hero-box .box p {
-        width: 100%;
     }
 
     .hero-box .box img {
