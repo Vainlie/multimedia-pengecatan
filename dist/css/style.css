@@ -3,14 +3,7 @@ section {
 }
 
 /* Hero */
-
 @media (max-width: 768px) {
-    .hero-box img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .hero-box {
         text-align: center;
     }
