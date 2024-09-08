@@ -51,12 +51,14 @@ section {
 /* About */
 .about-box img {
     width: 400px;
+    height: 200px;
 
 }
 
 @media(max-width: 475px) {
     .about-box img {
         width: 300px;
+        height: 100px;
     }
 }
 
