@@ -1,6 +1,5 @@
 section {
     padding-bottom: 50px;
-    margin-top: 30px;
 }
 
 /* Hero */
@@ -10,6 +9,7 @@ section {
 
 .hero-box .box img {
     width: 400px;
+    height: 300px;
 }
 
 @media screen and (max-width: 992px) {
@@ -20,6 +20,7 @@ section {
 
     .hero-box .box img {
         width: 300px;
+        height: 300px;
     }
 }
 
@@ -35,7 +36,8 @@ section {
     }
 
     .hero-box .box img {
-        width: 300px;
+        width: 100px;
+        height: 100px;
     }
 }
 
