@@ -3,6 +3,7 @@ section {
 }
 
 /* Hero */
+
 @media (max-width: 768px) {
     .hero-box {
         text-align: center;
