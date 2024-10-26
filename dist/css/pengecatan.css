@@ -10,3 +10,11 @@
 #pengecatan .card {
     background-color: #e1effa;
 }
+
+#tahapan .card {
+    background-color: #e1effa;
+}
+
+#tahapan .collapse .card-body {
+    background-color: #ffffff;
+}
