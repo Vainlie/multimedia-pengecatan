@@ -47,7 +47,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="jumbotron">
       <img src="./assets/images/foto jumbotron.jpg" alt="Muhammad Rizal" width="150" class="rounded-circle img-thumbnail" style="background-color: rgb(255, 255, 255)" />
       <h1 class="display-5 fw-bold container fs-4">Selamat Datang</h1>
       <p class="lead container fs-5">Halaman ini menyangkut beberapa materi tentang pengecatan silahkan disimak dengan baik</p>
@@ -63,23 +63,11 @@
 
     <!-- Pengecatan -->
     <section id="pengecatan">
-      <div class="container text-center">
-        <div class="row">
-          <h2>Pengecatan</h2>
-        </div>
-      </div>
-      <div class="card mb-3 container-md" style="max-width: 540px">
-        <div class="row g-0">
-          <div class="col-md-4 mt-5">
-            <img src="./assets/images/carbody.jpg" class="img-fluid rounded-start" alt="" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Definisi</h5>
-              <p class="card-text">Pengecatan (painting) adalah suatu proses aplikasi cat dalam bentuk cair pada sebuah obyek, untuk membuat lapisan tipis yang kemudian untuk membuat lapisan yang keras atau lapisan cat</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
+      <div class="card container" style="width: 18rem">
+        <img src="./assets/images/carbody.jpg" class="card-img-top mt-2" alt="..." />
+        <div class="card-body">
+          <p class="card-text">Pengecatan body adalah serangkaian kegiatan yang dilakukan guna memperbaiki suatu kerusakan cat pada panel body otomotif.</p>
+          <a href="#cacat" class="btn btn-primary">Next</a>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -95,9 +83,10 @@
     <!-- Cacat Pengecatan -->
     <section id="cacat">
       <div class="container text-center">
-        <div class="row">
+        <div class="row mb-2">
           <div class="col">
             <h2>Klasifikasi Cacat Pengecatan</h2>
+            <p>Sebelum melanjutkan tahapan proses pengecatan, peserta didik diharapkan memahami klasifikasi cacat pengecatan. Berikut adalah beberapa tipe cacat pengecatan beserta teknik perbaikan</p>
           </div>
         </div>
         <div class="row">
@@ -208,6 +197,15 @@
           </div>
         </div>
       </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="#pengecatan">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#jumbotron">1</a></li>
+          <li class="page-item"><a class="page-link" href="#pengecatan">2</a></li>
+          <li class="page-item"><a class="page-link" href="#cacat">3</a></li>
+          <li class="page-item"><a class="page-link" href="#tahapan pengecatan">Next</a></li>
+        </ul>
+      </nav>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -217,14 +215,46 @@
       </svg>
     </section>
     <!-- Akhir Cacat Pengecatan -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#e1effa"
-        fill-opacity="1"
-        d="M0,288L14.1,288C28.2,288,56,288,85,250.7C112.9,213,141,139,169,101.3C197.6,64,226,64,254,80C282.4,96,311,128,339,160C367.1,192,395,224,424,202.7C451.8,181,480,107,508,80C536.5,53,565,75,593,80C621.2,85,649,75,678,74.7C705.9,75,734,85,762,117.3C790.6,149,819,203,847,197.3C875.3,192,904,128,932,117.3C960,107,988,149,1016,176C1044.7,203,1073,213,1101,192C1129.4,171,1158,117,1186,112C1214.1,107,1242,149,1271,165.3C1298.8,181,1327,171,1355,165.3C1383.5,160,1412,160,1426,160L1440,160L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"
-      ></path>
-    </svg>
-    <!-- Akhir About -->
+
+    <!-- Tahapan Pengecatan -->
+    <section id="tahapan pengecatan">
+      <div class="container text-center">
+        <div class="row mb-2">
+          <h2>Pengecatan Body</h2>
+        </div>
+      </div>
+      <div class="container" style="width: 30rem">
+        <img src="./assets/images/fatherdging.png" class="card-img-top" alt="..." />
+        <div class="card">
+          <div class="card-body" style="background-color: #e1effa">
+            <h5 class="card-title">Persiapan Permukaan</h5>
+            <p class="card-text">
+              Persiapan permukaan dapat dilakukan dengan beberapa cara yakni melakukan analisis kerusakan yang terjadi, kemudian membersihkan permukaan dengan multi thiner dan dikeringkan. kemudian permukaan yang mengalami kerusakan
+              dilakukan pengamplasan guna menghilangkan cat dan sebagai wadah untuk mengaplikasikan dempul. Umumnya pengamplasan menggunakan grit 80-600/800 dari awal pengupasan cat hingga persiapan permukaan selesai.
+            </p>
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#tahapan" role="button" aria-expanded="false" aria-controls="collapseExample"> Selengkapnya </a>
+            </p>
+            <div class="collapse" id="tahapan">
+              <div class="card card-body">
+                Featheredging juga termasuk ke dalam persiapan permukaan dimana fungsi dari proses featheredging adalah untuk melakukan pelandaian tepi yang akan dilakukan perbaikan sehingga pada saat pengaplikasian clear coat tidak timbul
+                pola/ garis antara cat lama dan cat baru.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e1effa"
+          fill-opacity="1"
+          d="M0,288L14.1,288C28.2,288,56,288,85,250.7C112.9,213,141,139,169,101.3C197.6,64,226,64,254,80C282.4,96,311,128,339,160C367.1,192,395,224,424,202.7C451.8,181,480,107,508,80C536.5,53,565,75,593,80C621.2,85,649,75,678,74.7C705.9,75,734,85,762,117.3C790.6,149,819,203,847,197.3C875.3,192,904,128,932,117.3C960,107,988,149,1016,176C1044.7,203,1073,213,1101,192C1129.4,171,1158,117,1186,112C1214.1,107,1242,149,1271,165.3C1298.8,181,1327,171,1355,165.3C1383.5,160,1412,160,1426,160L1440,160L1440,320L1425.9,320C1411.8,320,1384,320,1355,320C1327.1,320,1299,320,1271,320C1242.4,320,1214,320,1186,320C1157.6,320,1129,320,1101,320C1072.9,320,1045,320,1016,320C988.2,320,960,320,932,320C903.5,320,875,320,847,320C818.8,320,791,320,762,320C734.1,320,706,320,678,320C649.4,320,621,320,593,320C564.7,320,536,320,508,320C480,320,452,320,424,320C395.3,320,367,320,339,320C310.6,320,282,320,254,320C225.9,320,198,320,169,320C141.2,320,113,320,85,320C56.5,320,28,320,14,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- Tahapan Pengecatan -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>
