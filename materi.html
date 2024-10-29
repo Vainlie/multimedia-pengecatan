@@ -74,8 +74,22 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-3">
             <div class="Learning-box">
-              <h3 class="Learning-name">Section One</h3>
+              <h3 class="Learning-name">--Section One--</h3>
               <img src="./assets/images/porsche.png" alt="porsche" class="porsche-img" />
+              <a href="#" class="btn btn-outline-dark Learning-button">Next</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="Learning-box">
+              <h3 class="Learning-name">--Section Two--</h3>
+              <img src="./assets/images/sanding.png" alt="porsche" class="sanding-img" />
+              <a href="#" class="btn btn-outline-dark Learning-button">Next</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="Learning-box">
+              <h3 class="Learning-name">--Section Three--</h3>
+              <img src="./assets/images/spraygun.png" alt="porsche" class="spraygun-img" />
               <a href="#" class="btn btn-outline-dark Learning-button">Next</a>
             </div>
           </div>
@@ -95,7 +109,7 @@
 
     <script type="text/javascript" src="./dist/js/vanilla-tilt.min.js"></script>
     <script type="text/javascript">
-      VanillaTilt.init(document.querySelector(".Learning-box"), {
+      VanillaTilt.init(document.querySelectorAll(".Learning-box"), {
         max: 25,
         speed: 400,
       });
