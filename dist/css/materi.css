@@ -10,3 +10,96 @@
 #menu {
     background-color: #e1effa;
 }
+
+/* Learning outcome */
+
+.Learning-box {
+    position: relative;
+    background-color: #e1effa;
+    border-radius: 10px;
+    height: 450px;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.Learning-box::before {
+    content: 'Basic';
+    position: absolute;
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+    font-style: italic;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.Learning-box:hover::before {
+    opacity: 0.7;
+}
+
+.Learning-box::after {
+    content: 'Painting';
+    position: absolute;
+    color: black;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-style: italic;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.Learning-box:hover::after {
+    opacity: 0.7;
+}
+
+.Learning-name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.5em;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translate3d(0, 0, 50px);
+}
+
+.Learning-box:hover .Learning-name {
+    top: 20px;
+    opacity: 0.7;
+}
+
+.Learning-button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.Learning-box:hover .Learning-button {
+    opacity: 0.7;
+    bottom: 20px;
+}
+
+.porsche-img {
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    transform: translate3d(20%, 10%, 100px);
+    max-width: 300px;
+    transition: 0.5s;
+}
+
+.Learning-box:hover .porsche-img {
+    transform: translate3d(20%, 10%, 100px) rotate(5deg) scale(1.2);
+}
