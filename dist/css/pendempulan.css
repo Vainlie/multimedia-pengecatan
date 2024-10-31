@@ -1,0 +1,88 @@
+.body {
+    min-height: auto;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    background-color: #e1fae5;
+}
+
+#teknikpendempulan {
+    background-color: #e1fae5;
+}
+
+#pengecatan .card {
+    background-color: #e1fae5;
+}
+
+#tahapan .card {
+    background-color: #e1fae5;
+}
+
+#tahapan .collapse .card-body {
+    background-color: #ffffff;
+}
+
+#jenisdempul .card {
+    background-color: #ffffff;
+}
+
+#jenisdempul .card-footer {
+    background-color: #e1fae5;
+}
+
+/* jenis dempul */
+#jenisdempul .card-img-top {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+#jenisdempul:hover .card-img-top {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Akhir jenis dempul */
+
+/* teknik dempul */
+#teknikpendempulan .card-body {
+    background-color: #ffffff;
+}
+
+#teknikpendempulan .teknikdempul-img {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+#teknikpendempulan:hover .teknikdempul-img {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* akhir teknik dempul */
+
+/* metode dempul */
+#metodedempul .card-body {
+    background-color: #e1fae5;
+}
+
+#metodedempul .metode-img {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+#metodedempul:hover .metode-img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* metode dempul */
