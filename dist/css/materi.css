@@ -133,3 +133,18 @@
 
 .Learning-box:hover .spraygun-img {
     transform: translate3d(20%, 10%, 100px) rotate(5deg) scale(1.2);
+}
+
+.amplas-img {
+    position: absolute;
+    top: 20%;
+    right: 27%;
+    transform: translate3d(20%, 10%, 100px);
+    max-width: 250px;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.Learning-box:hover .amplas-img {
+    transform: translate3d(20%, 10%, 100px) rotate(5deg) scale(1.2);
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project | Tiga</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="dist/css/pengamplasan.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffb8f3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">ProjectTiga</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center" id="jumbotron">
+      <img src="./assets/images/foto jumbotron.jpg" alt="Muhammad Rizal" width="150" class="rounded-circle img-thumbnail" style="background-color: rgb(255, 255, 255)" />
+      <h1 class="display-5 fw-bold container fs-4">Selamat Datang</h1>
+      <p class="lead container fs-5">Halaman ini menyangkut beberapa mater teknik pengamplasan yang dapat diterapkan dan dipelajari oleh pesrta didik</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,128L21.8,106.7C43.6,85,87,43,131,69.3C174.5,96,218,192,262,218.7C305.5,245,349,203,393,186.7C436.4,171,480,181,524,192C567.3,203,611,213,655,213.3C698.2,213,742,203,785,176C829.1,149,873,107,916,106.7C960,107,1004,149,1047,170.7C1090.9,192,1135,192,1178,192C1221.8,192,1265,192,1309,165.3C1352.7,139,1396,85,1418,58.7L1440,32L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Nomor Amplas -->
+    <section id="nomoramplas">
+      <div class="container text-center">
+        <div class="row mb-2">
+          <h2>Klasifikasi Grit Amplas</h2>
+          <p>Sebelum peserta didik melangkah ke tahap proses pengamplasan, peserta didik diwajibkan memahami identifikasi nomor kekasaran amplas seperti berikut:</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="card">
+          <img src="./assets/images/nomorgrit.png" class="nomorgrit-img" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Grit amplas</h5>
+            <p class="card-text">Penomoran amplas sesuai fungsi yang digunakan dapat mempengaruhi hasil dari apa yang dikerjakan, seperti halnya pada gambar diatas ada beberapa tahapan penggunaan nomor dalam amplas.</p>
+            <p class="d-inline-flex">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#klasifikasi" role="button" aria-expanded="false" aria-controls="collapseExample">Selengkapnya</a>
+            </p>
+          </div>
+          <div class="collapse" id="klasifikasi">
+            <img src="./assets/images/klasifikasino.png" class="klasifikasi-img" alt="..." />
+            <div class="card card-body">Gambar diatas menjelaskan pemborosan waktu dan tenaga akan terjadi, apabila amplas dengan kekasaran yang halus, misal #600 digunakan untuk mengupas cat asli pada panel body.</div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center mt-2">
+          <li class="page-item"><a class="page-link" href="#jumbotron">Previous</a></li>
+          <li class="page-item active" aria-current="page"><a class="page-link" href="#nomoramplas">1</a></li>
+          <li class="page-item"><a class="page-link" href="#teknikpengamplasan">Next</a></li>
+        </ul>
+      </nav>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fae1f4"
+          fill-opacity="1"
+          d="M0,96L13.3,85.3C26.7,75,53,53,80,58.7C106.7,64,133,96,160,138.7C186.7,181,213,235,240,261.3C266.7,288,293,288,320,240C346.7,192,373,96,400,80C426.7,64,453,128,480,160C506.7,192,533,192,560,197.3C586.7,203,613,213,640,234.7C666.7,256,693,288,720,288C746.7,288,773,256,800,208C826.7,160,853,96,880,64C906.7,32,933,32,960,80C986.7,128,1013,224,1040,224C1066.7,224,1093,128,1120,101.3C1146.7,75,1173,117,1200,112C1226.7,107,1253,53,1280,58.7C1306.7,64,1333,128,1360,160C1386.7,192,1413,192,1427,192L1440,192L1440,320L1426.7,320C1413.3,320,1387,320,1360,320C1333.3,320,1307,320,1280,320C1253.3,320,1227,320,1200,320C1173.3,320,1147,320,1120,320C1093.3,320,1067,320,1040,320C1013.3,320,987,320,960,320C933.3,320,907,320,880,320C853.3,320,827,320,800,320C773.3,320,747,320,720,320C693.3,320,667,320,640,320C613.3,320,587,320,560,320C533.3,320,507,320,480,320C453.3,320,427,320,400,320C373.3,320,347,320,320,320C293.3,320,267,320,240,320C213.3,320,187,320,160,320C133.3,320,107,320,80,320C53.3,320,27,320,13,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Nomor Amplas -->
+
+    <!-- Teknik Pengamplasan -->
+    <section id="teknikpengamplasan">
+      <div class="container text-center">
+        <div class="row mb-2">
+          <div class="col">
+            <h2>Tahapan Pengamplasan</h2>
+            <p>Berikut adalah tahapan pengaplikasian amplas sesuai nomor:</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/images/mengupascat.jpg" class="pengupasan-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pengupasan Cat</h5>
+                <p class="card-text">Melakukan pengupasan lapisan cat menggunakan amplas No. 80 kemudian mengaplikasikan primer pada bagian permukaan yang telah diamplas (fungsi pemberian primer adalah untuk mencegah laju korosi).</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/images/posisimengamplas.png" class="pengamplasandempul-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pengamplasan Dempul</h5>
+                <p class="card-text">Setelah melakukan pengupasan cat dan pengaplikasian dempul tahapan selanjutnya adalah melakukan pengamplasan dempul pada permukaan awal dengan menggunakan amplas No. 120 ditempelkan pada handblock.</p>
+              </div>
+              <p class="d-inline-flex container">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#pengamplasandempul" role="button" aria-expanded="false" aria-controls="collapseExample"> Selengkapnya </a>
+              </p>
+              <div class="collapse" id="pengamplasandempul">
+                <div class="card card-body" style="background-color: #fae1f4">
+                  Gerakkan amplas secara horizontal jika bidang yang diamplas tegak/ sejajar dengan pengamplasan dan jika bidang yang diamplas tidak sejajar dengan pengamplasan seperti contoh kap mesin maka arah pengamplasan dapat
+                  menyesuaikan.
+                </div>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/images/sampingamplas.png" class="sampingamplas-img" alt="gambaramplas" />
+              <div class="card-body">
+                <h5 class="card-title">Lapisan Kedua</h5>
+                <p class="card-text">Langkah selanjutnya adalah mengganti grit amplas ke No. 200-240 untuk melakukan penghalusan lebih lanjut, pengamplasan dilakukan sedikit keluar dari dempul guna meratakan permukaan dempul..</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/images/pengukuranamplas.png" class="pengukuranamplas-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Pemeriksaan Kerataan</h5>
+                <p class="card-text">Langkah selanjutnya adalah melakukan pemeriksaan kerataan dengan menggunakan mistar baja namun sebelum melakukan pengecekan alangkah baiknya dibersihkan dulu permukaan yang hendak diperiksa.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/images/pengukuranamplas.png" class="pengukuranamplas-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Scuffing</h5>
+                <p class="card-text">Tahapan selanjutnya adalah scuffing untuk meratakan tepi permukaan guna menghindari adanya goresan amplas yang terlewat di tepi dempul dengan menggunakan amplas No. 300 dan mesin shanding.</p>
+              </div>
+              <p class="d-inline-flex container">
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#penghalusan" role="button" aria-expanded="false" aria-controls="collapseExample"> Selengkapnya </a>
+              </p>
+              <div class="collapse" id="penghalusan">
+                <div class="card card-body" style="background-color: #fae1f4">Setelah tahapan scuffing dapat dilanjutkan dengan penghalusan menggunakan amplas No. 600 dan dapat dilakukan pengaplikasian surfacer.</div>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center mt-2">
+          <li class="page-item"><a class="page-link" href="#nomoramplas">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#nomoramplas">1</a></li>
+          <li class="page-item active" aria-current="page"><a class="page-link" href="#teknikpenmgamplasan">2</a></li>
+          <li class="page-item"><a class="page-link" href="#metodedempul">Next</a></li>
+        </ul>
+      </nav>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffff"
+          fill-opacity="1"
+          d="M0,256L26.7,229.3C53.3,203,107,149,160,122.7C213.3,96,267,96,320,122.7C373.3,149,427,203,480,208C533.3,213,587,171,640,149.3C693.3,128,747,128,800,133.3C853.3,139,907,149,960,128C1013.3,107,1067,53,1120,48C1173.3,43,1227,85,1280,90.7C1333.3,96,1387,64,1413,48L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Teknik Pendempulan -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
