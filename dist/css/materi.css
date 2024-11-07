@@ -148,3 +148,17 @@
 .Learning-box:hover .amplas-img {
     transform: translate3d(20%, 10%, 100px) rotate(5deg) scale(1.2);
 }
+
+.masking-img {
+    position: absolute;
+    top: 10%;
+    right: 27%;
+    transform: translate3d(20%, 10%, 100px);
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 10;
+}
+
+.Learning-box:hover .masking-img {
+    transform: translate3d(20%, 10%, 100px) rotate(5deg) scale(1.2);
+}
