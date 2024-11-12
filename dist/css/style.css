@@ -29,6 +29,13 @@ section {
     }
 }
 
+#about .about-img {
+    max-width: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
 /* About */
 
 /* Services */
