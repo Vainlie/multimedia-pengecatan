@@ -42,13 +42,7 @@
     background-color: #e1fae5;
 }
 
-/* jenis dempul */
-#jenisdempul .card-img-top {
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.5s;
-}
+
 
 #jenisdempul:hover .card-img-top {
     max-width: 400px;
@@ -65,23 +59,3 @@
 
 
 /* akhir teknik dempul */
-
-/* metode dempul */
-#metodedempul .card-body {
-    background-color: #e1fae5;
-}
-
-#metodedempul .metode-img {
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.5s;
-}
-
-#metodedempul:hover .metode-img {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* metode dempul */

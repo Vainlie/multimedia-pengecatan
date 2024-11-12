@@ -33,17 +33,13 @@
 
 /* jenis dempul */
 #jenisdempul .card-img-top {
-    max-width: 300px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     transition: 0.5s;
 }
 
-#jenisdempul:hover .card-img-top {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 /* Akhir jenis dempul */
 
@@ -59,11 +55,7 @@
     transition: 0.5s;
 }
 
-#teknikpendempulan:hover .teknikdempul-img {
-    max-width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 /* akhir teknik dempul */
 
@@ -73,16 +65,12 @@
 }
 
 #metodedempul .metode-img {
-    max-width: 300px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     transition: 0.5s;
 }
 
-#metodedempul:hover .metode-img {
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 /* metode dempul */
