@@ -1,0 +1,49 @@
+.body {
+    min-height: auto;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    background-color: #cbcbcb;
+}
+
+/* repaint 1 */
+#repaint1 .card {
+    background-color: #cbcbcb;
+    box-shadow: 5px 7px 2px #adadad;
+}
+
+#repaint1 .tombol-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+#repaint1 .bi {
+    font-size: 15px;
+}
+
+/* Akhir repaint 1 */
+
+/* repaint 2 */
+#repaint2 {
+    background-color: #cbcbcb;
+}
+
+#repaint2 .card {
+    box-shadow: 5px 7px 2px #adadad;
+}
+
+/* Akhir repaint 2 */
+
+/* repaint 3 */
+#repaint3 {
+    background-color: #ffffff;
+}
+
+#repaint3 .card {
+    box-shadow: 5px 7px 2px #adadad;
+    background-color: #cbcbcb;
+}
+
+/* Akhir repaint 3 */
