@@ -7,10 +7,19 @@
     background-color: #e1e3fa;
 }
 
+/* Masking umum */
 #maskingumum .card {
     background-color: #e1e3fa;
 }
 
+#maskingumum .tombol-link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-style: normal
+}
+
+/* Masking umum */
 
 /* Teknik Masking */
 #teknikmasking {
